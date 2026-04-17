@@ -1,0 +1,25 @@
+body {
+    color: white;
+    background-color: black;
+}
+ul {
+
+}
+a {
+    color: white;
+}
+img {
+    width: 250px;
+    height: 290px;
+    border-radius: 50%;
+    border: 5px solid aquamarine;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    color: aquamarine;
+}
+
