@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Horário Semanal — Cap. 4 / Ativ. 1</title>
+</head>
+<body>
+  <h1>Horário Semanal — Sistemas de Informação, 1º Período</h1>
+
+  <table>
+    <tr>
+      <th>Horário</th>
+      <th>Segunda-feira</th>
+      <th>Terça-feira</th>
+      <th>Quarta-feira</th>
+      <th>Quinta-feira</th>
+      <th>Sexta-feira</th>
+    </tr>
+
+    <tr>
+      <th>18:50h-19:40h</th>
+      <td>Programação Teias</td>
+      <td>Minecraft 2</td>
+      <td>Sistemas Op.</td>
+      <td>Algoritmos</td>
+      <td>Matematicas</td>
+    </tr>
+    <tr>
+      <th>19:40h-20:30h</th>
+      <td>Call of duty BO2</td>
+      <td>Cálculo VIII</td>
+      <td>Redes</td>
+      <td>Counter-Strike 2</td>
+      <td>Projeto Integrador</td>
+    </tr>
+
+    <tr>
+      <th>20:40h-21:30h</th>
+      <td>Motorola 1</td>
+      <td>Zumba I</td>
+      <td>Super Mario</td>
+      <td>Algoritmos</td>
+      <td>Roblox</td>
+    </tr>
+
+    <tr>
+      <th>21:30h-22:20h</th>
+      <td>Oxford</td>
+      <td>Dança</td>
+      <td>Redes</td>
+      <td>Aula de músicah</td>
+      <td>Zumba II</td>
+    </tr>
+
+  </table>
+
+  <p><a href="index.html">← Voltar à página principal</a></p>
+</body>
+</html>
