@@ -10,9 +10,12 @@ a {
 }
 img {
     width: 250px;
-    height: 290px;
-    border-radius: 50%;
-    border: 5px solid aquamarine;
+    height: 250px;
+    border-radius: 10%;
+    border: 5px solid rgb(3, 41, 99);
+    
+    object-fit: cover; 
+    object-position: center 40%;
 }
 
 .center {
@@ -20,6 +23,6 @@ img {
 }
 
 h2 {
-    color: aquamarine;
+    color: rgb(3, 41, 99);
 }
 
