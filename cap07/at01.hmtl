@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu cartão pessoal</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eeeeee;
+      padding: 20px;
+    }
 
+    header a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .cartao {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      max-width: 350px;
+      margin: 30px auto; 
+    }
+
+    .cartao-nome {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    .cartao-divisor {
+      border: 0;
+      border-top: 1px solid #ccc;
+    }
+
+    .cartao-cargo {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Título da Atividade</h1>
+    <p><a href="../index.html">← Voltar para a página principal</a></p>
+  </header>
+
+ <main>
+  <article class="cartao">
+    <h1 class="cartao-nome">Pedro Henrique dos Santos Azarias</h1>
+    <hr class="cartao-divisor" />
+    <p class="cartao-cargo">Estudante de Sistemas de Informação</p>
+    <p class="cartao-email">Email institucional: phsa07@aluno.ifal.edu.br</p>
+    <p class="cartao-celular">Meu contato: (82) 99904-9250</p>
+  </article>
+ </main>
+
+</body>
+</html>
