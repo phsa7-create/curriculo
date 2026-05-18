@@ -1,6 +1,8 @@
 body {
     color: white;
-    background-color: black;
+    background: linear-gradient(to bottom, #000000, #2b2a2a);
+    min-height: 100vh; 
+    margin: 0;
 }
 ul {
 
@@ -25,4 +27,3 @@ img {
 h2 {
     color: rgb(3, 41, 99);
 }
-
