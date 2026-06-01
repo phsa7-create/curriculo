@@ -49,7 +49,7 @@ section h2 {
 }
 
 #sec-atributo a[href^="http"]:not([href^="https"])::after {
-  content: " ⚠️";
+  content: " ! ";
 }
 
 
