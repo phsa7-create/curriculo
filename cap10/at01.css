@@ -1,0 +1,161 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 20px;
+  background-color: #f4f4f9;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+section h2 {
+  color: #4a4a4a;
+  border-left: 5px solid #aaa;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+
+#sec-atributo a[href^="https"] {
+  color: green;
+}
+
+#sec-atributo a[href^="http"]:not([href^="https"]) {
+  color: red;
+}
+
+#sec-atributo a[href^="http"]:not([href^="https"])::after {
+  content: " ! ";
+}
+
+
+#sec-atributo a[href$=".pdf"] {
+  color: orange;
+}
+
+#sec-atributo a[href$=".pdf"]::after {
+  content: " [PDF]";
+}
+
+#sec-atributo a[href^="#"] {
+  color: gray;
+  font-style: italic;
+}
+
+#sec-atributo a[target="_blank"]::after {
+  content: " ↗";
+}
+
+#sec-estrutural ol li {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+#sec-estrutural ol li:first-child {
+  font-weight: bold;
+}
+
+#sec-estrutural ol li:last-child {
+  color: purple;
+}
+
+#sec-estrutural ol li:nth-child(even) {
+  background-color: #f0f0f0; 
+}
+
+#sec-estrutural ol li:nth-child(odd) {
+  background-color: #e6f7ff;
+}
+
+#sec-estrutural ol li:nth-child(3) {
+  border-left: 5px solid red;
+  padding-left: 15px;
+}
+
+
+#sec-estado label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+#sec-estado input[type="text"],
+#sec-estado input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#sec-estado input:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+#sec-estado input:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+
+#sec-estado input:required {
+  border-left: 4px solid red;
+}
+
+#sec-estado input:valid {
+  border-color: green;
+}
+
+
+#sec-estado input:invalid {
+  border-color: red;
+}
+
+
+#sec-estado label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#sec-estado input[type="checkbox"] {
+    margin: 0;
+}
+
+
+#sec-estado input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+
+
+#sec-estado button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
