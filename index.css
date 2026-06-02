@@ -14,7 +14,7 @@ img {
     width: 250px;
     height: 250px;
     border-radius: 10%;
-    border: 5px solid rgb(3, 41, 99);
+    border: 5px solid rgb(59, 231, 96);
     
     object-fit: cover; 
     object-position: center 40%;
@@ -25,5 +25,5 @@ img {
 }
 
 h2 {
-    color: rgb(3, 41, 99);
+    color: rgb(59, 231, 96);
 }
